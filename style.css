@@ -1,0 +1,125 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+* {
+  box-sizing: border-box;
+}
+#logo {
+  display: inline-block;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+#site_header {
+  background-color: #ff8523;
+}
+
+nav a {
+  display: inline-block;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.main_navigation {
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+
+#page_content {
+  border-style: solid;
+  border-color: #ff8523;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+section h2 {
+  color: #1fabe5;
+}
+
+p a {
+  color: #1fabe5;
+}
+
+li {
+  font-weight: bold;
+}
+
+section {
+  border: 0px 0px 5px 0px;
+  border-bottom-style: solid;
+  border-color: #dddddd;
+}
+
+td {
+  border-style: solid;
+  border-color: #1fabe5;
+}
+
+thead {
+  background-color: #1fabe5;
+}
+
+form {
+  background-color: #dddddd;
+}
+
+.name {
+  background-color: #ff8523;
+  border-radius: 5px;
+  margin: 20px;
+  display: inline-block;
+  padding: 20px;
+  width: 97%;
+}
+
+#bio {
+  margin: 20px;
+}
+
+#submit_button {
+  margin: 20px;
+  background-color: #1fabe5;
+  margin-top: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  border-style: solid;
+  border-color: #1fabe5;
+}
+
+label:last-of-type {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.city_container {
+  margin-bottom: 20px;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
